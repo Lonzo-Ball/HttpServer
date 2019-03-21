@@ -30,7 +30,9 @@ HttpdServer 对象中的 InitServer() 函数用于初始化服务器。首先创
 构建 http 响应：<br>
 根据 cgi 的标记值，http 响应分为非 cgi 和 cgi 两种<br>
 1.构建非 cgi 响应<br>
+
 2.构建 cgi 响应<br>
+
 
 
 
