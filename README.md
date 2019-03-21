@@ -9,7 +9,7 @@
 	C++、Linux、线程池技术、
 ## 项目流程：
 ### 一：创建一个服务器<br>
-	程序启动，先构建一个 HttpdServer 对象。该对象的数据成员有三个：服务器端口号 port、监听描述符 listen_sock、指向线程池 ThreadPool对象的指针tp；<br>
+>>>>程序启动，先构建一个 HttpdServer 对象。该对象的数据成员有三个：服务器端口号 port、监听描述符 listen_sock、指向线程池 ThreadPool对象的指针tp；<br>
 核心方法有两个：用于初始化服务器的 InitServer() 函数和用于启动服务器的 Start() 函数。<br>
 ### 二：初始化服务器<br>
 	HttpdServer 对象中的 InitServer() 函数用于初始化服务器。首先创建监听套接字，绑定服务器的地址信息，然后调用 listen() 系统调用使服务器处于监听状态；接着构建一个 ThreadPool 对象，并对其进行初始化。<br>
